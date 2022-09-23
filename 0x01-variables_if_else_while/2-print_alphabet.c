@@ -1,18 +1,18 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line
- * Return: Always 0 (Success)
- */
+* main - main function
+*
+* a program that prints the alphabet in lowercase.
+* Return: end progress
+*/
 int main(void)
 {
-	char ch;
+	char alphabet;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		putchar(ch);
-	}
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	putchar(alphabet);
 	putchar('\n');
 	return (0);
 }
